@@ -1,0 +1,125 @@
+*{ 
+    margin:0px;
+    padding:0px;
+   }
+  body{
+    background-image: linear-gradient(to right, #5c0700, #11053b);
+  }
+  
+  table {
+      border-collapse: collapse;
+      margin: auto;
+  }
+  td {
+      width: 1000px;
+      height: 50px;
+      border: 1px solid black;
+    
+  }
+  
+  .table{
+    margin-top:120px;
+  }
+  
+  .red {
+      background-color: red;
+  }
+  .white {
+      background-color: #ffffff;
+  }
+  
+  
+  .blue-box{
+    display: flex;
+    width:500px;
+    background-color: blue;
+    margin: auto;
+    position: absolute;
+    top:12.4%;
+    right:50.1%;
+    height:32%;
+  
+  }
+  
+  #image {
+    display: flex;
+    width:28%;
+    margin: auto;
+    position: absolute;
+    top:11.7%;
+    right:50.1%;
+    height: 29.3%;
+    
+    
+  }
+  
+  
+  /*responsive design*/
+  /*smaller phones*/
+  /*@media (max-width: 500px){
+    .blue-box{
+      width:200px;
+      height: 15.5%;
+      top:13.5%;
+      right:60.1%;
+      
+    }
+  
+    table {
+        border-collapse: collapse;
+        margin: auto;
+    }
+    td {
+        width: 500px;
+        height: 30px;
+        border: 1px solid black;
+  
+    }
+  
+    #image {
+      display: flex;
+      width:37%;
+      margin: auto;
+      position: absolute;
+      height: 15.5%;
+      top:13.5%;
+      right:60.1%;
+  
+  
+    }*/
+  
+    
+  
+  
+  @media (min-width: 2000px){
+    .blue-box{
+      width:500px;
+      height: 22.3%;
+      top:8.5%;
+      right:50.1%;
+      
+    }
+  
+    table {
+        border-collapse: collapse;
+        margin: auto;
+    }
+    td {
+        width: 1000px;
+        height: 50px;
+        border: 1px solid black;
+  
+    }
+  
+    #image {
+      display: flex;
+      width:28%;
+      margin: auto;
+      position: absolute;
+      top:8.7%;
+      right:37.1%;
+      height: 22.3%;
+  
+  
+    }
+  }
